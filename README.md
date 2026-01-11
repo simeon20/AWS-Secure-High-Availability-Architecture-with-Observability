@@ -3,7 +3,7 @@ This project demonstrates a production-style AWS architecture focused on securit
 
 ---
 
-Architecture Highlights
+**Architecture Highlights**
 
 Multi-AZ VPC with public and private subnets
 
@@ -17,9 +17,9 @@ Real-time observability using CloudWatch metrics and dashboards
 
 ---
 
-Core AWS Services Used:
+##Core AWS Services Used:
 
-Networking & Traffic Management
+###Networking & Traffic Management
 
 Amazon VPC
 
