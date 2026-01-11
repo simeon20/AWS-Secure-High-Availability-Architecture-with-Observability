@@ -68,12 +68,13 @@ ALB metrics:
 
 ### Application Integration
 
-- ALB Target Groups 
-[Target group].(targetgroup.png)
+- ALB Target Groups
 
 - Health Checks
 
 - Listener Rules
+
+[Target group].(targetgroup.png)
 
 ### Operations & Lifecycle
 
