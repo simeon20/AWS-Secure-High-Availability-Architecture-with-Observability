@@ -1,11 +1,19 @@
 # AWS-Secure-High-Availability-Architecture-with-Observability
-This project demonstrates a production-style AWS cloud architecture focused on security,
-high availability, and operational observability.
+This project demonstrates a production-style AWS architecture focused on security, high availability, and operational observability. The system was designed to mirror how modern cloud environments are built, monitored, and validated in real organizations.
+Architecture Highlights
 
-The goal was to design and implement a realistic system that mirrors how modern cloud
-environments are architected, secured, and operated in real-world organizations.
+Multi-AZ VPC with public and private subnets
 
-list of the core application platforms/services your project touched
+Internet-facing Application Load Balancer
+
+Auto Scaling EC2 application tier
+
+Secure IAM role-based access and secrets management
+
+Real-time observability using CloudWatch metrics and dashboards
+
+Core AWS Services Used
+
 Networking & Traffic Management
 
 Amazon VPC
@@ -22,19 +30,19 @@ Compute & Scaling
 
 Amazon EC2
 
-EC2 Launch Templates
+Launch Templates
 
-Auto Scaling Groups (ASG)
+Auto Scaling Groups
 
-EC2 Instance Refresh
+Instance Refresh (rolling updates)
 
 Security & Identity
 
-AWS IAM (Roles & Policies)
+AWS IAM (roles and policies)
 
 AWS Secrets Manager
 
-Security Group–based segmentation
+Network segmentation via Security Groups
 
 Observability & Monitoring
 
@@ -42,9 +50,15 @@ Amazon CloudWatch Metrics
 
 CloudWatch Dashboards
 
-ALB Metrics (RequestCount, RequestCountPerTarget, TargetResponseTime)
+ALB metrics:
 
-Per-AZ Metric Analysis
+RequestCount
+
+RequestCountPerTarget
+
+TargetResponseTime
+
+Per-Availability Zone metric analysis
 
 Application Integration
 
@@ -56,8 +70,18 @@ Listener Rules
 
 Operations & Lifecycle
 
-Rolling updates via ASG Instance Refresh
-
-Resource teardown & cost control
+Rolling deployments using ASG Instance Refresh
 
 Operational validation via metrics
+
+Cost control through full environment teardown
+
+Key Outcomes
+
+Validated high availability using multi-AZ traffic distribution
+
+Observed real application behavior through ALB and target-level metrics
+
+Demonstrated safe rolling updates without downtime
+
+Built a secure, observable, and resilient cloud architecture
