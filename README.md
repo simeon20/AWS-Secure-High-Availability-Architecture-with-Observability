@@ -15,7 +15,7 @@ Real-time observability using CloudWatch metrics and dashboards
 
 ---
 
-Core AWS Services Used
+Core AWS Services Used:
 
 Networking & Traffic Management
 
