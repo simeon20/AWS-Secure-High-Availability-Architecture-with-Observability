@@ -16,8 +16,6 @@ This project demonstrates a production-style AWS architecture focused on securit
 
 - Real-time observability using CloudWatch metrics and dashboards
 
----
-
 ## Core AWS Services Used:
 
 ### Networking & Traffic Management
