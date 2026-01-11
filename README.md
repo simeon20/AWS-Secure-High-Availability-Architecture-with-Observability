@@ -82,7 +82,7 @@ ALB metrics:
 
 ---
 
-### Key Outcomes
+# Key Outcomes
 
 - Validated high availability using multi-AZ traffic distribution
 
