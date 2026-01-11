@@ -31,64 +31,64 @@ This project demonstrates a production-style AWS architecture focused on securit
 
 - Application Load Balancer (ALB)
 
-## Compute & Scaling
+### Compute & Scaling
 
-Amazon EC2
+- Amazon EC2
 
-Launch Templates
+- Launch Templates
 
-Auto Scaling Groups
+- Auto Scaling Groups
 
-Instance Refresh (rolling updates)
+- Instance Refresh (rolling updates)
 
-Security & Identity
+### Security & Identity
 
-AWS IAM (roles and policies)
+- AWS IAM (roles and policies)
 
-AWS Secrets Manager
+- AWS Secrets Manager
 
-Network segmentation via Security Groups
+- Network segmentation via Security Groups
 
-Observability & Monitoring
+### Observability & Monitoring
 
-Amazon CloudWatch Metrics
+- Amazon CloudWatch Metrics
 
-CloudWatch Dashboards
+- CloudWatch Dashboards
 
 ALB metrics:
 
-RequestCount
+- RequestCount
 
-RequestCountPerTarget
+- RequestCountPerTarget
 
-TargetResponseTime
+- TargetResponseTime
 
-Per-Availability Zone metric analysis
+- Per-Availability Zone metric analysis
 
-Application Integration
+### Application Integration
 
-ALB Target Groups
+- ALB Target Groups
 
-Health Checks
+- Health Checks
 
-Listener Rules
+- Listener Rules
 
-Operations & Lifecycle
+### Operations & Lifecycle
 
-Rolling deployments using ASG Instance Refresh
+- Rolling deployments using ASG Instance Refresh
 
-Operational validation via metrics
+- Operational validation via metrics
 
-Cost control through full environment teardown
+- Cost control through full environment teardown
 
 ---
 
-Key Outcomes
+### Key Outcomes
 
-Validated high availability using multi-AZ traffic distribution
+- Validated high availability using multi-AZ traffic distribution
 
-Observed real application behavior through ALB and target-level metrics
+- Observed real application behavior through ALB and target-level metrics
 
-Demonstrated safe rolling updates without downtime
+- Demonstrated safe rolling updates without downtime
 
-Built a secure, observable, and resilient cloud architecture
+- Built a secure, observable, and resilient cloud architecture
