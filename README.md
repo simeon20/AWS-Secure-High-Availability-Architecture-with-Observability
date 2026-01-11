@@ -3,7 +3,7 @@ This project demonstrates a production-style AWS architecture focused on securit
 
 ---
 
-**Architecture Highlights**
+** Architecture Highlights **
 
 Multi-AZ VPC with public and private subnets
 
@@ -17,21 +17,21 @@ Real-time observability using CloudWatch metrics and dashboards
 
 ---
 
-##Core AWS Services Used:
+## Core AWS Services Used:
 
-###Networking & Traffic Management
+### Networking & Traffic Management
 
-Amazon VPC
+-Amazon VPC
 
-Public & Private Subnets (Multi-AZ)
+-Public & Private Subnets (Multi-AZ)
 
-Internet Gateway
+-Internet Gateway
 
-Security Groups
+-Security Groups
 
-Application Load Balancer (ALB)
+-Application Load Balancer (ALB)
 
-Compute & Scaling
+## Compute & Scaling
 
 Amazon EC2
 
