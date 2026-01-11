@@ -4,7 +4,6 @@ This project demonstrates a production-style AWS architecture focused on securit
 ---
 
 ## Architecture Highlights
-
 - Multi-AZ VPC with public and private subnets
 
 - Internet-facing Application Load Balancer
