@@ -52,7 +52,7 @@ This project demonstrates a production-style AWS architecture focused on securit
 
 - Amazon CloudWatch Metrics
 
-- CloudWatch Dashboards
+- CloudWatch Dashboards [CloudWatch HA Dashboard](cloudwatch-ha-dashboard.png.png)
 
 ALB metrics:
 
@@ -64,11 +64,11 @@ ALB metrics:
 
 - Per-Availability Zone metric analysis
 
-[CloudWatch HA Dashboard](cloudwatch-ha-dashboard.png.png)
-
 ### Application Integration
 
-- ALB Target Groups [Target group](targetgroup.png)
+- ALB
+
+- Target Groups [Target group](targetgroup.png)
 
 - Health Checks
 
