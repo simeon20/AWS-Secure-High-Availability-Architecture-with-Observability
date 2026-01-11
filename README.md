@@ -64,7 +64,7 @@ ALB metrics:
 
 - Per-Availability Zone metric analysis
 
-![CloudWatch HA Dashboard](cloudwatch-ha-dashboard.png.png)
+[CloudWatch HA Dashboard](cloudwatch-ha-dashboard.png.png)
 
 ### Application Integration
 
