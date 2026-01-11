@@ -66,7 +66,7 @@ ALB metrics:
 
 ### Application Integration
 
-- ALB
+- ALB [load balancer](loadbalancer.png)
 
 - Target Groups [Target group](targetgroup.png)
 
