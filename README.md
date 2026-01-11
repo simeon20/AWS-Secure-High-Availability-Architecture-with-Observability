@@ -66,11 +66,11 @@ ALB metrics:
 
 ### Application Integration
 
-- ALB [load balancer](loadbalancer.png)
+- ALB [load balancer](loadbalancer.png) 
 
 - Target Groups [Target group](targetgroup.png)
 
-- Health Checks
+- Health Checks 
 
 - Listener Rules
 
