@@ -3,17 +3,17 @@ This project demonstrates a production-style AWS architecture focused on securit
 
 ---
 
-** Architecture Highlights **
+## Architecture Highlights
 
-Multi-AZ VPC with public and private subnets
+- Multi-AZ VPC with public and private subnets
 
-Internet-facing Application Load Balancer
+- Internet-facing Application Load Balancer
 
-Auto Scaling EC2 application tier
+- Auto Scaling EC2 application tier
 
-Secure IAM role-based access and secrets management
+- Secure IAM role-based access and secrets management
 
-Real-time observability using CloudWatch metrics and dashboards
+- Real-time observability using CloudWatch metrics and dashboards
 
 ---
 
@@ -21,15 +21,15 @@ Real-time observability using CloudWatch metrics and dashboards
 
 ### Networking & Traffic Management
 
--Amazon VPC
+- Amazon VPC
 
--Public & Private Subnets (Multi-AZ)
+- Public & Private Subnets (Multi-AZ)
 
--Internet Gateway
+- Internet Gateway
 
--Security Groups
+- Security Groups
 
--Application Load Balancer (ALB)
+- Application Load Balancer (ALB)
 
 ## Compute & Scaling
 
