@@ -69,7 +69,7 @@ ALB metrics:
 ### Application Integration
 
 - ALB Target Groups 
-[Target group](target group.png)
+[Target group].(targetgroup.png)
 
 - Health Checks
 
