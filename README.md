@@ -93,3 +93,7 @@ ALB metrics:
 - Demonstrated safe rolling updates without downtime
 
 - Built a secure, observable, and resilient cloud architecture
+
+# Security architecture Diagram
+
+[Security architecture Diagram](Diagram.png)
