@@ -94,6 +94,6 @@ ALB metrics:
 
 - Built a secure, observable, and resilient cloud architecture
 
-# Security architecture Diagram
+# Security Architecture Diagram
 
-[Security architecture Diagram](Diagram.png)
+[Security Architecture Diagram](Diagram.png)
