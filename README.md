@@ -1,11 +1,8 @@
 # Project Title
 AWS Secure High Availability Architecture with Observability
---
 
-
-# Overview This project demonstrates a production-style AWS architecture focused on security, high availability, and operational observability. The system was designed to mirror how modern cloud environments are built, monitored, and validated in real organizations.
-
----
+# Overview 
+This project demonstrates a production-style AWS architecture focused on security, high availability, and operational observability. The system was designed to mirror how modern cloud environments are built, monitored, and validated in real organizations.
 
 ## Architecture Highlights
 
