@@ -1,5 +1,6 @@
 # AWS-Secure-High-Availability-Architecture-with-Observability
 This project demonstrates a production-style AWS architecture focused on security, high availability, and operational observability. The system was designed to mirror how modern cloud environments are built, monitored, and validated in real organizations.
+
 Architecture Highlights
 
 Multi-AZ VPC with public and private subnets
@@ -11,6 +12,7 @@ Auto Scaling EC2 application tier
 Secure IAM role-based access and secrets management
 
 Real-time observability using CloudWatch metrics and dashboards
+---
 
 Core AWS Services Used
 
@@ -75,6 +77,7 @@ Rolling deployments using ASG Instance Refresh
 Operational validation via metrics
 
 Cost control through full environment teardown
+---
 
 Key Outcomes
 
