@@ -12,6 +12,7 @@ Auto Scaling EC2 application tier
 Secure IAM role-based access and secrets management
 
 Real-time observability using CloudWatch metrics and dashboards
+
 ---
 
 Core AWS Services Used
@@ -77,6 +78,7 @@ Rolling deployments using ASG Instance Refresh
 Operational validation via metrics
 
 Cost control through full environment teardown
+
 ---
 
 Key Outcomes
